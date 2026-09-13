@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #FDFBF7;
+  --surface: #FFFFFF;
+  --ink: #1A1A18;
+  --ink-muted: #5C5850;
+  --sage: #6B7B3A;
+  --sage-deep: #556049;
+  --clay: #B98A5E;
+  --border: #E7E2D8;
+  --font-inter: 'Inter', system-ui, sans-serif;
+  --font-serif: 'Newsreader', Georgia, serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-serif);
+  font-size: 18px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+.prose { max-width: 680px; margin-inline: auto; }
+.prose h2 { font-family: var(--font-inter); font-weight: 700; font-size: 1.75rem; margin: 48px 0 16px; }
+.prose h3 { font-family: var(--font-inter); font-weight: 600; font-size: 1.25rem; margin: 32px 0 12px; }
