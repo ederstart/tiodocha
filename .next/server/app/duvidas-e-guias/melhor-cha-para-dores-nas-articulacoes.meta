@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/duvidas-e-guias/layout,_N_T_/duvidas-e-guias/melhor-cha-para-dores-nas-articulacoes/layout,_N_T_/duvidas-e-guias/melhor-cha-para-dores-nas-articulacoes/page,_N_T_/duvidas-e-guias/melhor-cha-para-dores-nas-articulacoes"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/duvidas-e-guias/melhor-cha-para-dores-nas-articulacoes/__PAGE__",
+    "/duvidas-e-guias/melhor-cha-para-dores-nas-articulacoes",
+    "/duvidas-e-guias",
+    "/_index",
+    "/_head"
+  ]
+}

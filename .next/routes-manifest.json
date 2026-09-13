@@ -1,0 +1,98 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/beneficios-e-propriedades",
+      "regex": "^/beneficios\\-e\\-propriedades(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/beneficios\\-e\\-propriedades(?:/)?$"
+    },
+    {
+      "page": "/beneficios-e-propriedades/beneficios-do-cha-verde-para-inflamacao",
+      "regex": "^/beneficios\\-e\\-propriedades/beneficios\\-do\\-cha\\-verde\\-para\\-inflamacao(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/beneficios\\-e\\-propriedades/beneficios\\-do\\-cha\\-verde\\-para\\-inflamacao(?:/)?$"
+    },
+    {
+      "page": "/duvidas-e-guias",
+      "regex": "^/duvidas\\-e\\-guias(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/duvidas\\-e\\-guias(?:/)?$"
+    },
+    {
+      "page": "/duvidas-e-guias/melhor-cha-para-dores-nas-articulacoes",
+      "regex": "^/duvidas\\-e\\-guias/melhor\\-cha\\-para\\-dores\\-nas\\-articulacoes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/duvidas\\-e\\-guias/melhor\\-cha\\-para\\-dores\\-nas\\-articulacoes(?:/)?$"
+    },
+    {
+      "page": "/receitas-e-preparo",
+      "regex": "^/receitas\\-e\\-preparo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/receitas\\-e\\-preparo(?:/)?$"
+    },
+    {
+      "page": "/receitas-e-preparo/como-fazer-cha-para-acalmar",
+      "regex": "^/receitas\\-e\\-preparo/como\\-fazer\\-cha\\-para\\-acalmar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/receitas\\-e\\-preparo/como\\-fazer\\-cha\\-para\\-acalmar(?:/)?$"
+    },
+    {
+      "page": "/security",
+      "regex": "^/security(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/security(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

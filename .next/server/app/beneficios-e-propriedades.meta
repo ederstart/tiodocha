@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/beneficios-e-propriedades/layout,_N_T_/beneficios-e-propriedades/page,_N_T_/beneficios-e-propriedades"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/beneficios-e-propriedades/__PAGE__",
+    "/beneficios-e-propriedades",
+    "/_index",
+    "/_head"
+  ]
+}

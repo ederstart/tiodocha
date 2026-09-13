@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/beneficios-e-propriedades/layout,_N_T_/beneficios-e-propriedades/beneficios-do-cha-verde-para-inflamacao/layout,_N_T_/beneficios-e-propriedades/beneficios-do-cha-verde-para-inflamacao/page,_N_T_/beneficios-e-propriedades/beneficios-do-cha-verde-para-inflamacao"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/beneficios-e-propriedades/beneficios-do-cha-verde-para-inflamacao/__PAGE__",
+    "/beneficios-e-propriedades/beneficios-do-cha-verde-para-inflamacao",
+    "/beneficios-e-propriedades",
+    "/_index",
+    "/_head"
+  ]
+}

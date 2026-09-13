@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[97367,["/_next/static/chunks/42879de7b8087bc9.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+0:{"buildId":"hGMCq0zRiKkl1k1ExYq50","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"prose","children":[["$","h1",null,{"className":"text-3xl font-bold text-[#1A1A18] mb-4","children":"Dúvidas e Guias de Escolha"}],["$","p",null,{"className":"text-[#5C5850] mb-8","children":"Comparativos, mitos vs verdades e guias práticos."}],["$","section",null,{"className":"grid gap-4","children":["$","a",null,{"href":"/duvidas-e-guias/melhor-cha-articulacoes/","className":"block p-5 rounded-xl border border-[#E7E2D8] bg-white hover:border-[#6B7B3A] transition-colors","children":[["$","h3",null,{"className":"text-lg font-bold text-[#6B7B3A]","children":"Melhor chá para dores nas articulações"}],["$","p",null,{"className":"text-sm text-[#5C5850]","children":"Comparativo honesto entre cúrcuma, gengibre e chá verde."}]]}]}]]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
+4:null

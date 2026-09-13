@@ -1,0 +1,11 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/beneficios-e-propriedades/beneficios-do-cha-verde-para-inflamacao/page": "app/beneficios-e-propriedades/beneficios-do-cha-verde-para-inflamacao/page.js",
+  "/beneficios-e-propriedades/page": "app/beneficios-e-propriedades/page.js",
+  "/duvidas-e-guias/melhor-cha-para-dores-nas-articulacoes/page": "app/duvidas-e-guias/melhor-cha-para-dores-nas-articulacoes/page.js",
+  "/duvidas-e-guias/page": "app/duvidas-e-guias/page.js",
+  "/receitas-e-preparo/como-fazer-cha-para-acalmar/page": "app/receitas-e-preparo/como-fazer-cha-para-acalmar/page.js",
+  "/receitas-e-preparo/page": "app/receitas-e-preparo/page.js",
+  "/security/page": "app/security/page.js"
+}
