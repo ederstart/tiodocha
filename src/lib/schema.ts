@@ -1,3 +1,21 @@
+export function faqSchema(qs: { q: string; a: string }[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: qs.map(x => ({ '@type': 'Question', name: x.q, acceptedAnswer: { '@type': 'Answer', text: x.a } })),
+  }
+}
+
+export function howToSchema(name: string, steps: { name: string; text: string }[], totalTime: string) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name,
+    totalTime,
+    step: steps.map((s, i) => ({ '@type': 'HowToStep', position: i + 1, name: s.name, text: s.text })),
+  }
+}
+
 export const orgSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
